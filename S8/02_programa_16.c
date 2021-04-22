@@ -6,7 +6,7 @@ int main(){
 
 	//deslocando bits para esquerda
 	valor = valor << 2;
-	printf("%d\n", valor);
+	printf("Valor vale %d\n", valor);
 
 	valor = 2;
 	//deslocamento para direita
