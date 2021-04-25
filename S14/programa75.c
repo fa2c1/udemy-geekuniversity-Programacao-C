@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-//#ifndef PI
-//	#define PI 3.14567
-//#endif
+#ifndef PI
+	#define PI 3.14567
+#endif
 //ifdef - Diretiva de compilação
-
-
 
 int main(){
 
@@ -15,7 +13,7 @@ int main(){
 
 	printf("O valor é %d\n", valor);
 
-	//printf("PI vale %f\n", (2 * PI));
+	printf("PI vale %f\n", (2 * PI));
 
 	#ifdef PI
 		printf("O valor de PI é %f\n", PI);

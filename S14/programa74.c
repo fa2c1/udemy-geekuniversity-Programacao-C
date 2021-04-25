@@ -5,8 +5,6 @@
 #endif
 //ifndef - Diretiva de compilação
 
-
-
 int main(){
 
 	int valor = 5; //variável
